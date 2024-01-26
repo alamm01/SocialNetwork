@@ -5,7 +5,7 @@ const reactionSchema = require('./Reaction');
 // Schema to create Student model
 const thoughtSchema = new Schema(
   {
-    firthoughtText: {
+    thoughtText: {
       type: String,
       required: true,
       max_length: 280,
